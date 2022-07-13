@@ -13,7 +13,7 @@ body {
     border-style:border-box;
 }
 
-.container {
+.header__container {
     width: 1110px;
     margin: 0 auto;
     /* border: 1px solid red; */
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4em; 
 }
 
-.nav{
+.header__nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -46,29 +46,29 @@ a{
     padding-top: 72px;
 }
 
-.offer{
+.header__offer{
     margin-bottom: 98px;
     margin-top: 52px;
 }
 
-.place{
+.header__offer-place{
     font-size: 18px;
     margin-bottom: 21px;
 }
 
-.offer-title{
+.header__offer-title{
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 0.07em ;
 }
 
-.desc{
+.header__offer-desc{
     font-size: 18px;
     margin-bottom: 21px;
     margin-top: 21px;
 }
 
-.btn{
+.header__offer-btn{
     color: white;
     background: #6A85E3;
     font-size: 18px;
@@ -87,19 +87,19 @@ a{
     background: #415bb8;
 }
 
-.intro{
+.header__intro{
     background: #EAEAEA;
     padding: 30px;
     width: 441px;
 
 }
 
-.intro-title{
+.header__intro-title{
     font-weight: 700;
     margin-bottom: 17px;
 }
 
-.header-content {
+.header__content {
     display: flex;
     justify-content: space-between;
 }
